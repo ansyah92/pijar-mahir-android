@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Logout,,,,2021-12-21 11:24:23,2021-12-21 11:25:10,46.691s,FAILED
+,,,,,,,
+Test Cases/Login valid username password,,,,2021-12-21 11:24:23,2021-12-21 11:24:57,34.046s,FAILED
+"startApplication(apk_file, false)",,,,2021-12-21 11:24:24,2021-12-21 11:24:42,17.883s,PASSED
+"tap(findTestObject(""Home Page/Button Masuk""), 0)",,,,2021-12-21 11:24:42,2021-12-21 11:24:49,7.465s,PASSED
+"verifyElementText(findTestObject(""Login Page/Text Masuk""), ""Masuk"", CONTINUE_ON_FAILURE)",,,,2021-12-21 11:24:49,2021-12-21 11:24:51,2.036s,PASSED
+"verifyElementText(findTestObject(""Login Page/Email Text""), ""Email"", CONTINUE_ON_FAILURE)",,,,2021-12-21 11:24:51,2021-12-21 11:24:52,0.393s,FAILED
+"setText(findTestObject(""Login Page/Email Field""), ""arini.inf@gmail.com"", 0)",,,,2021-12-21 11:24:52,2021-12-21 11:24:53,1.280s,PASSED
+"verifyElementText(findTestObject(""Login Page/Password Text""), ""Password"", CONTINUE_ON_FAILURE)",,,,2021-12-21 11:24:53,2021-12-21 11:24:53,0.073s,FAILED
+"setText(findTestObject(""Login Page/Password Field""), ""ariniinf"", 0)",,,,2021-12-21 11:24:53,2021-12-21 11:24:54,1.498s,PASSED
+"tap(findTestObject(""Login Page/Icon Eye""), 0)",,,,2021-12-21 11:24:54,2021-12-21 11:24:56,1.588s,PASSED
+"tap(findTestObject(""Login Page/Button Lanjutkan""), 0)",,,,2021-12-21 11:24:56,2021-12-21 11:24:57,1.277s,PASSED
+,,,,,,,
+Test Cases/Logout,,,,2021-12-21 11:24:57,2021-12-21 11:25:10,12.246s,PASSED
+"tap(findTestObject(""Footer/Profile""), 0)",,,,2021-12-21 11:24:58,2021-12-21 11:24:59,0.996s,PASSED
+"tap(findTestObject(""Profile Page/Pengaturan Profil""), 0)",,,,2021-12-21 11:24:59,2021-12-21 11:25:02,3.205s,PASSED
+"tap(findTestObject(""Pengaturan Profil/Button Keluar""), 0)",,,,2021-12-21 11:25:02,2021-12-21 11:25:10,7.543s,PASSED

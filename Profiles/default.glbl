@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Storage\\f1053d69-c019-4c7e-a445-6156ca3b62e3.apk'</initValue>
+      <name>apk_file</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
